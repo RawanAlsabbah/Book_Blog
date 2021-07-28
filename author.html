@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="style4.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia&effect=neon|outline|emboss|shadow-multiple">
+    <script src="script2.js"></script>
+
+    <title>Authors </title>
+</head>
+<body>
+    <div class="body">
+
+
+        <div class="navbar">
+            <a  href="index.html"> Home</a>
+            <a href="books.html">Books</a>
+            <a class="active" href="author.html">Authors</a>
+            <a href="faq.html"></i> FAQS</a>
+        </div>
+
+        <div id="title">
+            <h1 class="font-effect-emboss">Books Blog</h1>
+        
+        </div>
+  
+        <!-- Authors  cards -->
+
+
+
+            <div id="page">
+            
+                <div id="firstpage">
+                    <div id="pic-info">
+                        <div >
+                            <img id="pic" src="img/JeffChang.jpg" alt="Author">
+                        </div>
+                        <div id="author-info">
+                            <div id="author-name">
+                                <h2>Jeff Chang</h2>
+                                
+                            </div>
+                            <div id="review">
+                                <div id="review-text">
+                                    <h5>Reviews</h5>
+                                </div>
+                                <div id="review-icon">
+                                    <i class="fa fa-star" style="color:rgb(223, 111, 130);"aria-hidden="true"></i>
+                                    <i class="fa fa-star-o" style="color:rgb(223, 111, 130);" aria-hidden="true"></i>
+                                    <i class="fa fa-star-o" style="color:rgb(223, 111, 130);" aria-hidden="true"></i>
+                                    <i class="fa fa-star-o" style="color:rgb(223, 111, 130);" aria-hidden="true"></i>
+                                    <i class="fa fa-star-o" style="color:rgb(223, 111, 130);" aria-hidden="true"></i>                        
+                                </div>
+                            </div> 
+                        </div>
+    
+                    </div>
+                    <div id="desc">
+                        <p>Jeff Chang has written extensively on culture, politics, the arts, and music.
+                            <br>
+                            His first book, Can't Stop Won't Stop: A History of the Hip-Hop Generation, garnered many honors, including the American Book Award and the Asian American Literary Award. He edited the book, Total Chaos: The Art and Aesthetics of Hip-Hop. Who We Be: The Colorization of America, was released on St. Martin's Press in October 2014.
+                            <br>
+                            Jeff has been a USA Ford Fellow in Literature. He was named by The Utne Reader as one of "50 Visionaries Who Are Changing Your World,” by KQED as an Asian Pacific American Local Hero, and by the Yerba Buena Center for The Arts to its 2016 YBCA 100 list of those “shaping the future of American culture.”
+                            </p>
+                    </div>
+                    <div id="search-bar">
+                        <h5 id="declar">Author's book</h5>
+                        <div class="dropdown">
+                        <button onclick="myFunction()" class="dropbtn">Click to Search Book</button>
+                            <div id="myDropdown" class="dropdown-content">
+                                <input type="text" placeholder="Search.." id="myInput" onkeyup="filterFunction()">
+                                <a href="#about">Can't Stop Won't Stop: A History of the Hip-Hop Generation</a>
+                                <a href="#base">Radical Hope: Letters of Love and Dissent in Dangerous Times</a>
+                                <a href="#blog">Making Beats: The Art of Sample-Based Hip-Hop (Music Culture)</a>
+                                <a href="#blog">Can't Stop Won't Stop: A Hip-Hop History</a>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div id="space"></div>
+                </div>
+                <div id="secondpage">
+                    <div class="blog-card">
+                        <input type="radio" name="select" id="tap-1" checked>
+                        <input type="radio" name="select" id="tap-2">
+                        <input type="radio" name="select" id="tap-3">
+                        <input type="radio" name="select" id="tap-4">
+                        <div class="sliders">
+                            <label for="tap-1" class="tap tap-1"></label>
+                            <label for="tap-2" class="tap tap-2"></label>
+                            <label for="tap-3" class="tap tap-3"></label>
+                            <label for="tap-4" class="tap tap-4"></label>
+                        </div>
+                        <input type="checkbox" id="imgTap">
+    
+                        <div class="inner-part">
+                            <label for="imgTap" class="img">
+                                <img class="img-1" src="img/hiphophistory.png">
+                            </label>
+                            <div class="content content-1">
+                                <div class="title">Can't Stop Won't Stop: A History of the Hip-Hop Generation</div>
+                                <div class="text">
+                                    Forged in the fires of the Bronx and Kingston, Jamaica, hip-hop became...
+                                </div>
+                                <button > Go to Book</button>
+                            </div>
+                        </div>
+                        <div class="inner-part">
+                            <label for="imgTap" class="img">
+                                <img class="img-2" src="img/letterlove.png">
+                            </label>
+                            <div class="content content-2">
+                                <div class="title">Radical Hope: Letters of Love and Dissent in Dangerous Times</div>
+                                <div class="text">
+                                    Radical Hope is a collection of letters—to ancestors, to children five generations from now, to strangers in grocery lines...
+                                </div>
+                                <button > Go to Book</button>
+                            </div>
+                        </div>
+                        <div class="inner-part">
+                            <label for="imgTap" class="img">
+                                <img class="img-3" src="img/hiphopbeats.png">
+                            </label>
+                            <div class="content content-3">
+                                <div class="title">Making Beats: The Art of Sample-Based Hip-Hop (Music Culture)</div>
+                                <div class="text">
+                                    Based on ten years of research among hip-hop producers, Making Beats was the first work ...
+                                </div>
+                                <button > <a href="www.google.com"></a>Go to Book</button>
+                            </div>
+                        </div>
+                        <div class="inner-part">
+                            <label for="imgTap" class="img">
+                                <img class="img-4" src="img/hiphophistory.png">
+                            </label>
+                            <div class="content content-4">
+                                <div class="title">Can't Stop Won't Stop: A Hip-Hop History</div>
+                                <div class="text">
+                                    Hip hop is one of the most dominant and influential cultures in America, giving new voice...
+                                </div>
+                                <button > <a href="www.google.com"></a>Go to Book</button>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div id="books">
+                        <div class="book-box">
+                            <div class="book-img"></div>
+                            <div class="book-info">
+                                <div class="book-name"></div>
+                                <div class="book-desc"></div>
+                                <div class="viewbtn">
+                                    <button></button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="book-box"></div>
+                        <div class="book-box"></div>
+                    </div>
+    
+                </div>
+            </div>
+
+        <!-- Footer  -->
+        <div class="footer">
+
+            <div id="foot">
+               <p> CREATED BY <a href="#">Samaher </a> | FUTURE DEVELOPERS TEAM
+                <span class="far fa-copyright">
+                </span>
+                2021 
+                </p>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+</html>
